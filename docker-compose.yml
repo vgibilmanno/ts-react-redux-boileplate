@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  boilerplate-client:
+    image: boilerplate-client
+    container_name: boilerplate-client
+    build:
+      context: ./Client
+      dockerfile: Dockerfile
+    ports:
+      - '3000:80'
+
+  boilerplate-service:
+    image: boilerplate-service
+    container_name: boilerplate-service
+    build:
+      context: ./Server
+      dockerfile: Dockerfile
+    ports:
+      - '10000:9050'
