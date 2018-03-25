@@ -30,6 +30,9 @@ function getText(store: any) {
         .then(response => response.json())
         .then((dummyData: DummyData) => {
             store.dispatch(setText(dummyData.text));
+        })
+        .catch(error => {
+            store.dispatch(setText('The service is not responing! Go to the server directory and start it with npm start'));
         });
 }
 
