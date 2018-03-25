@@ -6,7 +6,7 @@ This boilerplate provides you with
 * React and TypeScript project created with [CRA](https://github.com/facebook/create-react-app)
 * state management with [Redux](https://github.com/reactjs/react-redux)
 * simple routing with react-router and react-router-redux
-* simpel components showing how to use redux and how to handle side-effects
+* simple components showing how to use redux and how to handle side-effects
 * ExpressJs service
 * Docker support
 
