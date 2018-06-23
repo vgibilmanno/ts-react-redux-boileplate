@@ -4,15 +4,15 @@ This boilerplate sets up a basic structure for quick starting your projects.
 This boilerplate provides you with
 
 * React and TypeScript project created with [CRA](https://github.com/facebook/create-react-app)
-* state management with [Redux](https://github.com/reactjs/react-redux)
-* simple routing with react-router and react-router-redux
-* simple components showing how to use redux and how to handle side-effects
+* State management with [Redux](https://github.com/reactjs/react-redux)
+* Routing with react-router and react-router-redux
+* Components showing how to use redux and how to handle side-effects
 * ExpressJs service
 * Docker support
 
 ## Getting Started
 
-To get you started you can simply clone this repository and install the dependencies for both applications.
+To get started clone this repository and install the dependencies for both applications.
 
 Execute this command on each directory (Client/Server)
 
@@ -22,7 +22,7 @@ npm install or yarn install
 
 ## Run the Applications
 
-To start the applications just execute this command on each directory.
+Start the applications by executing this command on each directory.
 
 ```
 npm start or yarn start
@@ -38,7 +38,7 @@ The ExpressJs service API is available under [`localhost:9050`][local-service-ur
 
 ## Docker
 
-Docker is fully optional in this boilerplate but a simple support is still provided.
+Docker is fully optional in this boilerplate but a basic support is still provided.
 
 ### Individual containers
 If you want to use Docker you can individually build docker images for each directory and run them separately
@@ -51,7 +51,7 @@ docker run %ID%
 ### Compose
 If you don't want to build containers separately and prefer to wire both up, you can use the compose file in the root directory.
 
-Just use the following commands
+Use the following commands
 
 ```
 docker-compose build
